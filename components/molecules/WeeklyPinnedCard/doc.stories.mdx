@@ -1,7 +1,7 @@
 import { Meta, Story } from "@storybook/addon-docs";
 
-import Avatar from "component/atoms";
-import WeeklyPinnedCard from "./WeeklyPinnedCard";
+import { Avatar, Label } from "components/atoms";
+import WeeklyPinnedCard from "./component";
 
 <Meta title="Atoms/WeeklyPinnedCard" />
 
@@ -13,8 +13,8 @@ import WeeklyPinnedCard from "./WeeklyPinnedCard";
     title="Call doctor for tests"
     date="15 Mar 2020"
     time="9:00 AM"
-    label={<p>abc</p>}
-
-/>
-
+    label={<Label>Personl</Label>}
+  >
+    Some description
+  </WeeklyPinnedCard>
 </Story>

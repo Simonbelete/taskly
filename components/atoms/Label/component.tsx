@@ -5,7 +5,7 @@ import ILabel from "./interface";
 const Label = (props: ILabel): ReactElement => {
   const { children } = props;
   return (
-    <div className="flex items-center rounded-2xl bg-repeat-round dark:bg-dark-primary">
+    <div className="inline-flex items-center rounded-2xl text-white px-5 py- text-sm  bg-[#F4B860] dark:bg-dark-primary">
       {children}
     </div>
   );
