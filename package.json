@@ -12,10 +12,12 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.3",
+    "animate.css": "^4.1.1",
     "axios": "^0.21.1",
     "moment": "^2.29.1",
     "next": "11.0.1",
     "react": "17.0.2",
+    "react-animated-css": "^1.2.1",
     "react-dom": "17.0.2",
     "sass": "^1.37.0",
     "storybook-tailwind-dark-mode": "^1.0.9"
